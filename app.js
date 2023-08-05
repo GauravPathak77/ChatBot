@@ -4,7 +4,7 @@ const app = express();
 const key = require("./key");
 const path = require("path");
 const ejs = require("ejs");
-require("env").config();
+require("dotenv").config();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
