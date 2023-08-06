@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 20vw;
+    width: 30vw;
+    border: 1px solid black;
+    margin: 5vw auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container label{
+    font-size: 2vw;
+}
+.container input{
+    width: 20vw;
+    height:3vw;
+    border-radius: 10vw;
+}
+.container button{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50px;
+    border: none;
+    background: none;
+}
+button i{
+    width: 3px;
+    height: 3px;
+}
+.search{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+}
+/* .search{
+    margin-right: 50px;
+} */
+.response{
+    border: 1px solid black;
+}

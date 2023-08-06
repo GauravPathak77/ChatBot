@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ChatBot</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>ChatBot</h1>
-  <form id="promptForm" action="/" method="POST">
+    <form id="promptForm" action="/" method="POST">
+    <div class="container">
     <label for="prompt">Enter your prompt:</label>
+    <div class="search">
     <input type="text" id="prompt" name="prompt" required>
-    <button type="submit">Submit</button>
+    <button type="submit"><i class="fa-duotone fa-magnifying-glass fa-rotate-90"></i></button>
+    </div>
+  </div>
   </form>
 
-  <div id="responseContainer"></div>
 <%if(response != null){%>
-<div><%=response%></div>
+<div class="response"><%=response%></div>
 <%}%>
 </body>
 </html>
