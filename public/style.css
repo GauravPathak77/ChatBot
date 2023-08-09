@@ -7,7 +7,7 @@ h1{
 }
 .container{
     height: 20vw;
-    width: 30vw;
+    width: 60vw;
     border: 1px solid black;
     margin: 5vw auto;
     display: flex;
@@ -20,20 +20,18 @@ h1{
     font-size: 2vw;
 }
 .container input{
-    width: 20vw;
-    height:3vw;
+    width: 40vw;
+    height:1vw;
     border-radius: 10vw;
+    padding: 1vw;
 }
 .container button{
     width: 3vw;
     height: 3vw;
-    border-radius: 50px;
-    border: none;
-    background: none;
-}
-button i{
-    width: 3px;
-    height: 3px;
+    border-radius: 50%;
+    padding: 2px;
+    /* border: none; */
+    /* background: none; */
 }
 .search{
     /* display: flex;
@@ -45,4 +43,8 @@ button i{
 } */
 .response{
     border: 1px solid black;
+    height: auto;
+    width: 58vw;
+    margin: 0 auto;
+    padding: 2vw;
 }
